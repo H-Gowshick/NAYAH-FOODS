@@ -1,0 +1,232 @@
+.signIn {
+    display: flex;
+    background-color: rgb(243, 219, 185) !important;
+    background-image: url("../images/SignInBG.png") !important;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.signIn .box {
+    font-family: 'Inter', sans-serif;
+    border: 1px solid white;
+    padding: 3% 2% 3% 2%;
+    background-color: rgba(255, 255, 255, 0.13);
+    backdrop-filter: blur(37px);
+    border-radius: 6px;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 10%;
+}
+
+.signIn .box .close {
+    padding: 4px;
+    border-radius: 0px 12px 0px 12px;
+    background: #192C44;
+    cursor: pointer;
+}
+
+.signIn .box h5 {
+    font-weight: 900;
+}
+
+.signIn .box .inputField {
+    position: relative;
+}
+
+.signIn .box .inputField .input {
+    border-top: black;
+    border-left: black;
+    border-right: black;
+    outline: none;
+    background: transparent;
+    width: 100%;
+}
+
+.signIn .box .inputField .icon {
+    position: absolute;
+    right: 5px;
+}
+
+.signIn .box input::placeholder {
+    color: black;
+}
+
+.signIn .box .link {
+    font-size: small;
+    font-weight: 600;
+    color: #192C44;
+    text-decoration: none;
+}
+
+.signIn .box .link:hover {
+    text-decoration: underline;
+}
+
+.signIn .box .button {
+    width: 100%;
+    border: none;
+    outline:none;
+    border-radius: 6px;
+    background: linear-gradient(180deg, #192C44 0%, rgba(5, 61, 132, 0.50) 100%);
+    color: white;
+    font-weight: 600;
+    padding: 4px;
+}
+
+.signIn .box .error {
+    display: flex;
+    font-size: small;
+    justify-content: center;
+}
+
+/* sign Up */
+
+.signUp {
+    background-color: rgb(243, 219, 185) !important;
+    background-image: url("../images/SignUpBG.png") !important;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.signUp .box {
+    font-family: 'Inter', sans-serif;
+    border: 1px solid white;
+    padding: 3% 2% 3% 2%;
+    background-color: rgba(255, 255, 255, 0.13);
+    backdrop-filter: blur(37px);
+    border-radius: 6px;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 10%;
+}
+
+.signUp .box .close {
+    padding: 4px;
+    border-radius: 0px 12px 0px 12px;
+    background: #192C44;
+    cursor: pointer;
+}
+
+.signUp .box h5 {
+    font-weight: 900;
+}
+
+.signUp .box .inputField {
+    position: relative;
+}
+
+.signUp .box .inputField .input {
+    border-top: black;
+    border-left: black;
+    border-right: black;
+    outline: none;
+    background: transparent;
+    width: 100%;
+}
+
+.signUp .box .inputField .icon {
+    position: absolute;
+    right: 5px;
+}
+
+.signUp .box input::placeholder {
+    color: black;
+}
+
+.signUp .box .link {
+    font-size: small;
+    font-weight: 600;
+    color: #192C44;
+    text-decoration: none;
+}
+
+.signUp .box .link:hover {
+    text-decoration: underline;
+}
+
+.signUp .box .button {
+    width: 100%;
+    border: none;
+    outline:none;
+    border-radius: 6px;
+    background: linear-gradient(180deg, #192C44 0%, rgba(5, 61, 132, 0.50) 100%);
+    color: white;
+    font-weight: 600;
+    padding: 4px;
+}
+
+.signUp .box .error {
+    display: flex;
+    font-size: small;
+    justify-content: center;
+}
+
+
+/* home */
+
+.home .home-section1 {
+    background-color: rgb(243, 219, 185);
+}
+
+.home .home-section1 .quotes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.home .home-section1 .hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 600px) {
+    .home .home-section1 .hero-right {
+        background-image: url("../images/Flow.svg");
+        background-repeat: no-repeat;
+        background-position: 95%;
+        background-size: auto 100%;
+    }
+}
+
+
+
+.home .home-section2 {
+    background-color: rgb(245, 242, 237);
+}
+
+.home .home-section3 {
+    background-color: rgb(154, 151, 218);
+
+}
+
+.home .home-section3 .quotes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.home .home-section3 .service-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 600px) {
+    .home .home-section3 .service-left {
+        background-image: url("../images/Flow.svg");
+        background-repeat: no-repeat;
+        background-position: 95%;
+        background-size: auto 90%;
+    }
+}

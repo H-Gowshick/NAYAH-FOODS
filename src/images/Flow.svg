@@ -1,0 +1,75 @@
+<svg width="396" height="600" viewBox="0 0 396 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .animated-element {
+      animation: moveUp 12s linear infinite;
+      transform-origin: center center;
+    }
+
+    .animated-element-up {
+      animation: moveUp 12s linear infinite;
+    }
+
+    .animated-element-down {
+      animation: moveDown 12s linear infinite;
+    }
+
+    @keyframes moveUp {
+      0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(-600px);
+      }
+    }
+
+    @keyframes moveDown {
+      0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(600px);
+      }
+    }
+  </style>
+
+  <g clip-path="url(#clip0_781_1858)">
+    <!-- Top Part -->
+    <g class="animated-element-up">
+      <circle cx="50" cy="50" r="50" fill="#F5F2ED"/>
+      <rect x="0" y="124" width="100" height="318" rx="40" fill="#F5F2ED"/>
+      <circle cx="50" cy="516" r="50" fill="#F5F2ED"/>
+      <rect x="0" y="590" width="100" height="318" rx="40" fill="#F5F2ED"/>
+      <circle cx="50" cy="982" r="50" fill="#F5F2ED"/>
+      <rect x="0" y="1056" width="100" height="318" rx="40" fill="#F5F2ED"/>
+    </g>
+
+    <!-- Middle Part (Moves Downwards) -->
+    <g class="animated-element-down">
+      <circle cx="198" cy="-882" r="50" fill="#F5F2ED"/>
+      <rect x="148" y="-808" width="100" height="318" rx="40" fill="#F5F2ED"/> 
+      <circle cx="198" cy="-416" r="50" fill="#F5F2ED"/>
+      <rect x="148" y="-342" width="100" height="318" rx="40" fill="#F5F2ED"/> 
+      <circle cx="198" cy="50" r="50" fill="#F5F2ED"/>
+      <rect x="148" y="124" width="100" height="318" rx="40" fill="#F5F2ED"/> 
+      <circle cx="198" cy="516" r="50" fill="#F5F2ED"/>
+      <rect x="148" y="590" width="100" height="318" rx="40" fill="#F5F2ED"/>  
+      <circle cx="198" cy="982" r="50" fill="#F5F2ED"/>
+      <rect x="148" y="1056" width="100" height="318" rx="40" fill="#F5F2ED"/> 
+    </g>
+
+    <!-- Bottom Part -->
+    <g class="animated-element-up">
+      <circle cx="346" cy="50" r="50" fill="#F5F2ED"/>
+      <rect x="296" y="124" width="100" height="318" rx="40" fill="#F5F2ED"/>
+      <circle cx="346" cy="516" r="50" fill="#F5F2ED"/>
+      <rect x="296" y="590" width="100" height="318" rx="40" fill="#F5F2ED"/>  
+      <circle cx="346" cy="982" r="50" fill="#F5F2ED"/>
+      <rect x="296" y="1056" width="100" height="318" rx="40" fill="#F5F2ED"/> 
+    </g>
+  </g>
+  <defs>
+    <clipPath id="clip0_781_1858">
+      <rect width="396" height="600" fill="white"/>
+    </clipPath>
+  </defs>
+</svg>
